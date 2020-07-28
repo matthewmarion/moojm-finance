@@ -1,6 +1,6 @@
 {
-  "name": "moojm-finance",
-  "description": "Personal finance app.",
+  "name": "moojm-finance-auth",
+  "description": "Personal finance app auth service.",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Moojm, LLC",
@@ -8,14 +8,12 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "test": "mocha --exit test/*.test.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "body-parser": "^1.19.0",
-    "express": "^4.16.3",
-    "firebase-admin": "^9.0.0"
+    "express": "^4.16.3"
   },
   "devDependencies": {}
 }
