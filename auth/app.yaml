@@ -1,2 +1,4 @@
 runtime: nodejs10
 service: auth
+env_variables:
+  FIREBASE_URL: 'https://moojm-finance.firebaseio.com'
