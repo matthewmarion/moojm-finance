@@ -1,0 +1,21 @@
+{
+  "name": "moojm-finance",
+  "description": "Personal finance app.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Moojm, LLC",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.0",
+    "supertest": "^4.0.2"
+  }
+}
